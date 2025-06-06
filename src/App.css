@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Added padding for smaller screens */
+}
+
+/* Container Styling */
+.container {
+  background: #fff;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 30px 40px; /* Increased padding for spacious look */
+  width: 100%;
+  max-width: 500px; /* Increased size */
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #4e54c8;
+}
+
+/* Form Styling */
+form div {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #4e54c8;
+  outline: none;
+  box-shadow: 0 0 6px rgba(78, 84, 200, 0.5);
+}
+
+/* Buttons Styling */
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 0 5px;
+}
+
+button[type="submit"] {
+  background: #4e54c8;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background: #3a3ea0;
+}
+
+button[type="button"] {
+  background: #ddd;
+  color: #333;
+}
+
+button[type="button"]:hover {
+  background: #bbb;
+}
+
+/* Results Section */
+.center h3 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  color: #4e54c8;
+}
+
+.center p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 30px; /* Slight reduction for smaller screens */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
